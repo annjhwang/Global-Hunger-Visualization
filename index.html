@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   
+    <script src="js/sorttable.js"></script>
+    
+  </head>
+  <body bgcolor=white>
+
+    <header>
+      <h2>Ann Josephine Hwang</h2>
+      <h3>CS 171 Homework 1</h3>
+
+    </header>
+
+    <!-- Begin table -->
+    <div class="container" id= "hungerchart">
+      <h1 class="headers">Global Hunger Index (GHI) Scores </h1>
+      <p>The following table shows countries with an alarming hunger situation on the basis of the Global Hunger Index (GHI) scores from 1990, 2000 and 2014. The Index ranks countries on a 100-point scale, with 0 being the best score (no hunger) and 100 being the worst. You may click on the "Country" tab to sort the table. </p>
+      <table class="table table-striped sortable">
+        <thead>
+          <tr>
+              <th>Country</th>
+              <th>1990</th>
+              <th>2000</th>
+              <th>2014</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>Central African Republic</td>
+              <td>51.9</td>
+              <td>51.4</td>
+              <td>46.9</td>
+          </tr>
+          <tr>
+              <td>Chad</td>
+              <td>65</td>
+              <td>52</td>
+              <td>46.4</td>
+          </tr>
+          <tr>
+              <td>Haiti</td>
+              <td>52.1</td>
+              <td>42.8</td>
+              <td>37.3</td>
+          </tr>
+          <tr>
+              <td>Madagascar</td>
+              <td>44.8</td>
+              <td>44.1</td>
+              <td>36.3</td>
+          </tr>
+          <tr>
+              <td>Sierra Leone</td>
+              <td>58.8</td>
+              <td>53.5</td>
+              <td>38.9</td>
+          </tr>
+          <tr>
+              <td>East Timor</td>
+              <td>-</td>
+              <td>-</td>
+              <td>40.7</td>
+          </tr>
+          <tr>
+              <td>Zambia</td>
+              <td>47</td>
+              <td>50.9</td>
+              <td>41.1</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+ <h1 class="headers">Good vs. Bad Visualization</h1>
+
+
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/bad1.png" alt="...">
+      <div class="carousel-caption">
+        Bad visualization example 1
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bad2.jpg" alt="...">
+      <div class="carousel-caption">
+        Bad visualization example 2
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/good1.png" alt="...">
+      <div class="carousel-caption">
+        Good visualization example 1
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/good4.png" alt="...">
+      <div class="carousel-caption">
+        Good visualization example 2
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+    
+
+
+     <div class="container" id="visualizations">
+      <div class="row">
+        <div class="col-md-6"><h4> Image </h4></div>
+        <div class="col-md-6"><h4> Description </h4></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 screenshot">
+          <img src="img/bad1.png" alt="Baby boomers">
+        </div>
+        <div class="col-md-6">
+          <p><b>This is an example of a bad visualization. </b></p>
+          <ul>
+            <li>Design choices: The disctint colors are used to sharply contrast the different ways people describe themselves. </li>
+            <li>Bad: While the graph does have a simple, clear distinction between each category because of the distinct colors, the overall message of the graph is confusing. The percentages do not add up to 100%, which can be confusing to the audience what the numbers exactly represent. Also, the proportions don't seem to align with how much that color is represented on the body figure of the image. Furthermore, there is no apparent connection between the body part and the specific way people identify themselves. </li>
+            <li>Main point: This image tries to show how "baby boomers" describe themselves. Although unclear, it seems to convey the proportion of how these "baby boomers" identify themselves.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 screenshot">
+          <img src="img/bad2.jpg" alt="Information Retention">
+        </div>
+        <div class="col-md-6">
+          <p><b>This is an example of a bad visualization. </b></p>
+          <ul>
+            <li>Design choices: The distinction in the colors are used to differentiate each method. The gradiation in the colors suggest that they are all methods that are used for information retention. </li>
+            <li>Bad: One good thing about this represenation is that the numbers seem to be proportional to the size it has on the pyramid. It is unclear what exactly the numbers represent, leaving the audience to guess whether it means that the specified method allows and individual to retain that much information, or some other representation. Furthermore, the data could have been better represented if the methods that overlap like "See" and "See & Hear" had some sort of visualized overlap between them. </li>
+            <li>Main Point: This image tries to show the useful methods of retaining information. Although it is unclear what exactly the percentages represent, the visualization suggests that "Say & Do" is the most effect method for information retention, while "Read" is the least effective.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/good1.png" alt="Political Shifting">
+        </div>
+        <div class="col-md-6">
+          <p><b>This is an example of a good visualization. </b></p>
+          <ul>
+            <li>Design choices: Different colors are used for symbolic representation - red represent Republican, blue represents Democrat. This visualization also uses a graph to visually represent the median. </li>
+            <li>Good: The image effectively uses faded colors for both the representation of Democrats and Republicans to compare with the bold colors to emphasize the political polarism throughout the years. The graph cleverly shows the shift to the right for the republicans and a shift to the left for the democrats. The image also indicates the median of both the Democratic and Repbulica party, which makes it easier to see the ongoing political extremism in both parties. </li>
+            <li>Main Point: This image conveys the political polarism that has occurred through 20 years by comparing the political distribution in the years of 1994, 2004, and 2014. </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/good4.png" alt="Income Tax">
+        </div>
+        <div class="col-md-6">
+          <p><b>This is an example of a good visualization. </b></p>
+          <ul>
+            <li>Design choices: This visualization uses a simple pie chart to show the proportions of people who pay and those who don't, along with the reasons they are unable to pay. Different colors are used to create contrast between those who paid and did not pay tax.  </li>
+            <li>Good: This image effectively uses the grey color for those who "Pay Income Tax" to differentiate them with those who do not. The percentages of each section sum up to a 100%, which makes it easy for the audience to comprehend that the graph is a demographical distribution of the reasons people don't pay their income tax. One thing that this visualization could improve on is showing the possible overlapping between some of the reasons that people don't pay their income taxes. </li>
+            <li>Main Point: This image is a simple graph that represents the reasons that some don't pay income tax.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
